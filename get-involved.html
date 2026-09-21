@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved — SEEDS International</title>
+<meta name="description" content="Volunteer as a mentor, donate to support free coding camps, or partner your organization with SEEDS International.">
+<link rel="icon" type="image/png" href="assets/seeds_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/seeds_logo.png" alt="SEEDS International logo">
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="global-impact.html">Global Impact</a>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="get-involved.html#donate" class="btn btn-primary">Donate</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb">Get Involved</span>
+      <h1>There's a place for you at SEEDS.</h1>
+      <p>Whether you have an hour to mentor, a gift to give, or an organization to partner with us, every bit of support helps a student discover their future in tech.</p>
+    </div>
+  </section>
+
+  <!-- THREE PATHS -->
+  <section>
+    <div class="container">
+      <div class="paths-grid reveal">
+        <div class="path-card p-volunteer" id="volunteer">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20h5v-1a4 4 0 0 0-4-4h-1M9 20H4v-1a4 4 0 0 1 4-4h1m1-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm7-1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></svg>
+          </div>
+          <h3>Volunteer</h3>
+          <p>Mentor students during camp, lead a workshop, or join us on a future community trip abroad. No teaching background required — just a willingness to share what you know.</p>
+          <a href="#volunteer-form" class="btn btn-primary">Sign Up to Volunteer</a>
+        </div>
+        <div class="path-card p-donate" id="donate">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M12 2c-4 0-7 3-7 7 4 0 7-2 7-7ZM12 8c4 0 7 3 7 7-4 0-7-2-7-7Z"/></svg>
+          </div>
+          <h3>Donate</h3>
+          <p>Your gift keeps camp free for every student and helps fund trips like our Cambodia partnership — covering materials, meals, travel, and supplies for the communities we visit.</p>
+          <a href="contact.html" class="btn btn-primary">Make a Donation</a>
+        </div>
+        <div class="path-card p-partner" id="partner">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 8 3 3-3 3M6 8 3 11l3 3M14 5l-4 14"/></svg>
+          </div>
+          <h3>Partner With Us</h3>
+          <p>Bring SEEDS to your school or organization, or team up with us on a community project — locally or on a future international trip.</p>
+          <a href="contact.html" class="btn btn-primary">Start a Partnership</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEER FORM -->
+  <section class="section-alt" id="volunteer-form">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow alt">Volunteer Signup</span>
+        <h2>Tell us how you'd like to help</h2>
+        <p>Share a little about yourself and we'll follow up about upcoming camps, mentoring opportunities, and trips.</p>
+      </div>
+      <div class="form-card reveal" style="max-width:760px; margin:0 auto;">
+        <form data-fake-submit>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="v-name">Full Name</label>
+              <input type="text" id="v-name" name="name" required>
+            </div>
+            <div class="form-field">
+              <label for="v-email">Email Address</label>
+              <input type="email" id="v-email" name="email" required>
+            </div>
+            <div class="form-field">
+              <label for="v-interest">I'm interested in</label>
+              <select id="v-interest" name="interest">
+                <option>Mentoring at camp</option>
+                <option>Leading a workshop</option>
+                <option>Joining an international trip</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="v-background">Tech background (optional)</label>
+              <input type="text" id="v-background" name="background" placeholder="e.g. Web Development, Cybersecurity">
+            </div>
+            <div class="form-field full">
+              <label for="v-message">Tell us a bit about yourself</label>
+              <textarea id="v-message" name="message" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+        </form>
+        <div class="form-success">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+          Thanks! We'll be in touch soon.
+        </div>
+        <p class="form-note">This form isn't connected to a backend yet — wire it up to an email service or form provider before launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT OF GIVING -->
+  <section>
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Where Your Support Goes</span>
+        <h2>Every contribution moves camp forward</h2>
+      </div>
+      <div class="stat-strip reveal">
+        <div class="stat-card">
+          <strong>Materials</strong>
+          <span>Laptops, supplies, and project resources for every camper</span>
+        </div>
+        <div class="stat-card">
+          <strong>Meals &amp; Space</strong>
+          <span>Food and venue costs so camp stays free for families</span>
+        </div>
+        <div class="stat-card">
+          <strong>Global Trips</strong>
+          <span>Travel, groceries, water filters, and school supplies abroad</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="assets/seeds_logo.png" alt="SEEDS International logo"></a>
+        <p>A nonprofit growing confidence and opportunity through free, hands-on technology education for teens — and community partnerships around the world.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9h3V6h-3c-2 0-3 1.2-3 3v2H8v3h3v7h3v-7h3l1-3h-4v-1.5c0-.6.4-1.5 1-1.5Z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2.5 2.5 0 0 1 5 0V17"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="global-impact.html">Global Impact</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="get-involved.html#volunteer">Volunteer</a></li>
+          <li><a href="get-involved.html#donate">Donate</a></li>
+          <li><a href="get-involved.html#partner">Partner With Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p style="font-size:0.9rem; color:rgba(255,255,255,0.6);">Get news about upcoming camps and trips.</p>
+        <form data-fake-submit>
+          <input type="email" placeholder="Your email" required aria-label="Email address">
+          <button type="submit" aria-label="Subscribe">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> SEEDS International. All rights reserved.</span>
+      <span>A registered nonprofit organization.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
