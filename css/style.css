@@ -487,6 +487,12 @@ section {
   gap: 28px;
 }
 
+.card-grid.cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 760px;
+  margin: 0 auto;
+}
+
 .card {
   background: var(--white);
   border: 1px solid var(--border);
@@ -1143,7 +1149,8 @@ section {
   .nav-toggle { display: flex; }
   .header-actions .btn-primary { padding: 10px 20px; font-size: 0.9rem; }
   section { padding: 64px 0; }
-  .card-grid { grid-template-columns: 1fr; }
+  .card-grid,
+  .card-grid.cols-2 { grid-template-columns: 1fr; }
   .steps { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }

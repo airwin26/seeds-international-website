@@ -1,6 +1,6 @@
 # SEEDS International — Website
 
-Official website for **SEEDS International**, a nonprofit dedicated to providing quality education to impoverished and at-risk youth. Core initiatives include general high school education support, college scholarships (with an emphasis on STEM and medical fields), and essential resources like water filters for at-risk communities — alongside a free, hands-on coding camp for teens and international community partnerships.
+Official website for **SEEDS International**, a nonprofit dedicated to providing quality education to impoverished and at-risk youth. Core initiatives include general high school education support and essential resources like water filters for at-risk communities — alongside a free, hands-on coding camp for teens and international community partnerships.
 
 ## About the project
 
@@ -10,9 +10,9 @@ This is a static, multi-page website with no build step or framework — plain H
 
 | Page | Description |
 |---|---|
-| `index.html` | Home — mission overview, three core initiatives, approach, global impact teaser |
-| `about.html` | Mission, the three core initiatives, values |
-| `programs.html` | Core initiatives (education, scholarships, essential resources) plus the free coding camp's five tracks, mentors, FAQ |
+| `index.html` | Home — mission overview, core initiatives, approach, global impact teaser |
+| `about.html` | Mission, the core initiatives, values |
+| `programs.html` | Core initiatives (education, essential resources) plus the free coding camp's five tracks, mentors, FAQ |
 | `global-impact.html` | Community partnerships, featuring the July 2026 Cambodia trip |
 | `get-involved.html` | Volunteer, donate, and partner pathways + volunteer signup form |
 | `contact.html` | Contact form and info |
