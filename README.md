@@ -1,6 +1,6 @@
 # SEEDS International — Website
 
-Official website for **SEEDS International**, a nonprofit dedicated to providing quality education to impoverished and at-risk youth. Core initiatives include general high school education support and essential resources like water filters for at-risk communities — alongside a free, hands-on coding camp for teens and international community partnerships.
+Official website for **SEEDS International**, a nonprofit whose main offering is a free, hands-on coding camp for teens. Wherever a camp runs, SEEDS also partners with local organizations to meet real community needs — food, clean water, shelter, and education — as in its July 2026 Cambodia trip with Cultivating Cambodia.
 
 ## About the project
 
@@ -10,10 +10,10 @@ This is a static, multi-page website with no build step or framework — plain H
 
 | Page | Description |
 |---|---|
-| `index.html` | Home — mission overview, core initiatives, approach, global impact teaser |
-| `about.html` | Mission, the core initiatives, values |
-| `programs.html` | Core initiatives (education, essential resources) plus the free coding camp's five tracks, mentors, FAQ |
-| `global-impact.html` | Community partnerships, featuring the July 2026 Cambodia trip |
+| `index.html` | Home — coding camp spotlight, what we do, how it works, global impact teaser |
+| `about.html` | Mission, approach, what we do, values |
+| `programs.html` | The coding camp (five tracks, mentors, FAQ) plus the community partnerships that come with each camp |
+| `global-impact.html` | Community partnerships in action, featuring the July 2026 Cambodia trip with Cultivating Cambodia |
 | `get-involved.html` | Volunteer, donate, and partner pathways + volunteer signup form |
 | `contact.html` | Contact form and info |
 
@@ -30,7 +30,8 @@ This is a static, multi-page website with no build step or framework — plain H
 ├── js/main.js
 └── assets/
     ├── seeds_logo.png
-    └── seeds_banner_wide.jpg
+    ├── seeds_banner_wide.jpg
+    └── cambodia/       # photos from the July 2026 Cambodia trip
 ```
 
 ## Running locally
@@ -50,7 +51,6 @@ The forms on `contact.html` and `get-involved.html` are front-end only (they sho
 - [ ] Replace the placeholder email address (`hello@seeds-international.org`) with the real contact email
 - [ ] Point the **Donate** buttons at a real donation platform (currently `contact.html`)
 - [ ] Add real social media links (currently `#` placeholders in the footer and contact page)
-- [ ] Swap in real photos from camp and the Cambodia trip where illustrations are used
 - [ ] Fill in a physical address / phone number if applicable
 
 ## Credits
